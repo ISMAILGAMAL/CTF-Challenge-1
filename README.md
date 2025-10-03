@@ -44,8 +44,8 @@ git push -u origin main
 
 1. Sign up / sign in to Railway: [https://railway.app](https://railway.app)
 2. Create a new project → choose *Deploy from GitHub* and select your repo.
-3. Railway will detect the `Dockerfile` and build the image. Default port `8000` should be detected; if not, set the service port to `8000` in Railway service settings.
-4. After build, Railway gives you a public URL (e.g., `https://<project>.railway.app`).
+3. Railway will detect the `Dockerfile` and build the image. 
+4. After build, In settings go to networking section, choose a domain and the gunicorn port. Railway will then give you a public domain you can use.
 
 
 
