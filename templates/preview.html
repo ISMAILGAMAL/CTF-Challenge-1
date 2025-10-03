@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Template Preview</h2>
+  <p>Type something to preview (this renders as a Jinja template):</p>
+  <form method="post" action="/preview">
+    <textarea name="content" rows="6" cols="60">your text here</textarea><br>
+    <button type="submit">Preview</button>
+  </form>
+  <!-- Hint: The flag is in main.py see if you can read the source code. -->
+{% endblock %}
