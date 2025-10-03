@@ -8,7 +8,3 @@ FLAG = "CYBERUS{First_Flag!!!}"
 def index():
     return f"<h1>Hello Challenger!</h1><p>Your flag is: {FLAG}</p>"
 
-# simple health endpoint used by some platforms (IGNORE)
-@app.route("/health")
-def health():
-    return "OK", 200
